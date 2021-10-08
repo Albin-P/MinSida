@@ -1,0 +1,26 @@
+html {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+background-color: gold;
+}
+
+a {
+
+}
+
+.my-pic {
+width: 500px;
+height: 500px;
+}
+
+#larry{
+color:crimson;
+text-decoration: none;
+
+}   
+
+#larry:hover{
+color:blue
+}
