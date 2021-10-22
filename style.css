@@ -92,6 +92,14 @@ color:blue
     font-size: 18px;
 }
 
+.info{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    margin:  auto;
+    width: 70%;
+    padding: 480px;
+    
+}
 
 
 
