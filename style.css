@@ -7,7 +7,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-background-color: rgb(255, 223, 44);
+background-color: rgb(255, 255, 255);
 margin: 0;
 }
 
@@ -15,16 +15,28 @@ a {
 
 }
 
+
 .header{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffc500;
     padding: 25px;
     text-align: center;
+}
+
+.back-pic{
+    background-image: url(skog.jpg);
+    padding: 500px;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .my-pic {
 width: 500px;
 height: 500px;
 }
+
+
 
 #larry{
 color:crimson;
@@ -62,5 +74,5 @@ text-decoration: none;
 
 .topnav{
     overflow: hidden;
-    background-color: rgb(105, 105, 105)
+    background-color: rgb(255, 238, 0)
 }
