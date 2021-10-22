@@ -15,7 +15,11 @@ a {
 
 }
 
-
+.header{
+    background: linear-gradient(to bottom, #5e5e5e 0%, #707070 100%);
+    padding: 1px;
+    text-align: center;
+}
 
 
 .sidenav{
@@ -25,7 +29,7 @@ a {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:#ffc500;
+    background: linear-gradient(to bottom, #ffc500 0%, #ff9b00 100%);
     overflow-x: hidden;
     padding-top: 20px;
 
@@ -87,6 +91,8 @@ color:blue
     text-align: center;
     font-size: 18px;
 }
+
+
 
 
 
