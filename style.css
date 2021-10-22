@@ -16,20 +16,52 @@ a {
 }
 
 
-.header{
-    background-color: #ffc500;
-    padding: 25px;
-    text-align: center;
+
+
+.sidenav{
+    height: 100%;
+    width: 75px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#ffc500;
+    overflow-x: hidden;
+    padding-top: 20px;
+
 }
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.sidenav a:hover{
+    color: aqua;
+}
+
+.main {
+    margin-left: 160;
+    font-size: 28px;
+    padding: 0px 10px;
+
+}
+
+
 
 .back-pic{
     background-image: url(skog.jpg);
     padding: 500px;
     
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+
 
 .my-pic {
 width: 500px;
@@ -56,23 +88,6 @@ color:blue
     font-size: 18px;
 }
 
-.top-left{
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    font-size: 18px;
-}
 
-.topnav a{
-float: left;
-display: block;
-color: black;
-text-align: center; 
-padding: 14px 16px;
-text-decoration: none;
-}
 
-.topnav{
-    overflow: hidden;
-    background-color: rgb(255, 238, 0)
-}
+
