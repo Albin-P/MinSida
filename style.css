@@ -33,7 +33,7 @@ a {
     z-index: 1;
     top: 0;
     left: 0;
-    background: linear-gradient(to bottom, #ffc500 0%, #ff9b00 100%);
+    background: linear-gradient(to bottom, #ffc500 0%, #ff9100, #ff7300 100%);
     overflow-x: hidden;
     padding-top: 20px;
 
@@ -100,9 +100,10 @@ color:blue
     background-color: rgb(0, 0, 0);
     color: white;
     border: 2px solid rgb(255, 255, 255);
-    width: 80%;
-    padding: 440px;
-    margin: 200px;
+    width: 60%;
+    margin-right: 250px;
+    margin-left: 420px;
+    padding: 470px;
 
     
 }
